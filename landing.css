@@ -1,0 +1,201 @@
+.heroPath{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    font-family: cursive;
+}
+.headNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    box-shadow: 2px 0.8px 5px darkgray;
+    margin-bottom: 10px;
+}
+.navImage{
+    height: 50px;
+    width: 80px;
+}
+a{
+    color: coral;
+    text-decoration: none;
+}
+.navItem{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+}
+.navItem >p {
+    transition: all ease-in-out 0.5s;
+    text-decoration: none;
+}
+.navItem >p:hover{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1.1);
+    font-weight: bold;
+    width: 100px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 2px 1px 10px brown;
+}
+.heroContent{
+    display: flex;
+    flex-direction: column;
+}
+.heroTexts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    color: coral;
+}
+.heroImage{
+    height: auto;
+    width: 100%;
+   
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+}
+.contentCards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    color: white;
+    font-family: cursive;
+}
+.content1{
+    height: 200px;
+    width: 150px;
+    background: darkslategray;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.imgContent1{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: brown;
+}
+.content2{
+    height: 200px;
+    width: 150px;
+    background: darkslategray;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.imgContent2{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: brown;
+}
+.content3{
+    height: 200px;
+    width: 150px;
+    background: darkslategray;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 10px;
+
+}
+.imgContent3{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: brown;
+}
+.bigEducation{
+    display: flex;
+    flex-direction: column;
+}
+.imageEducation{
+    display: flex;
+    line-height: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("image.png");
+    font-family: cursive;
+    color: brown;
+}
+.buttonDiv{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: white;
+    transition: all ease-in-out 0.5s;
+    
+}
+.buttonDiv:hover{
+    cursor: pointer;
+    box-shadow: 2px 1px 10px brown;
+    transform: scale(0.95);
+}
+.structuredContent{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+}
+.footerElement{
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: brown;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.footerLinkHolder{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    font-family: cursive;
+}
+.linkHolderOne >p{
+    transition: all ease-in-out 0.5s;
+}
+.linkHolderOne >p:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight: bold;
+}
+.linkHolderTwo >p{
+    transition: all ease-in-out 0.5s;
+}
+.linkHolderTwo >p:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight: bold;
+}
+.footerIconLinks{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footerIconLinks >div{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    /* background: white; */
+}

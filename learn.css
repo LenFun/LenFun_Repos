@@ -1,0 +1,147 @@
+.headNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    /* background: coral; */
+    box-shadow: 2px 0.8px 5px darkgray;
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+.navImage{
+    height: 50px;
+    width: 80px;
+}
+a{
+    color: coral;
+    text-decoration: none;
+}
+.navItem{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+}
+.navItem >p {
+    font-family: cursive;
+    transition: all ease-in-out 0.5s;
+}
+.navItem >p:hover{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1.1);
+    font-weight: bold;
+    width: 100px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 2px 1px 10px brown;
+}
+marquee{
+    font-family: cursive;
+    color: brown;
+}
+.firstCenter{ 
+    font-family: cursive;
+}
+.bigContainer{
+    padding: 30px;
+    margin-bottom: 10px;
+}
+.bothContent{
+    width: 200px;
+    display: flex;
+    /* background: brown; */
+    justify-content: space-around;
+    font-family: cursive;
+}
+.introContent{
+    font-family: cursive;
+    font-style: italic;
+}
+.imgIntro{
+    height: 30px;
+    width: 50px;
+    object-fit: contain;
+}
+.contentVidHolder{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.midContent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+iframe{
+    border-radius: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.midElement{
+    height: 180px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-family: cursive;
+    border-radius: 10px;
+    background: linear-gradient(orange, coral);
+    transition: all ease-in-out 0.5s;
+    box-shadow: 1px 1px 10px darkred;
+}
+.midElement:hover{
+    background: white;
+    box-shadow: 1px 1px 5px brown;
+    transform: scale(1.05);
+}
+.footerElement{
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: brown;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.footerLinkHolder{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    font-family: cursive;
+}
+.linkHolderOne >p{
+    transition: all ease-in-out 0.5s;
+}
+.linkHolderOne >p:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight: bold;
+}
+.linkHolderTwo >p{
+    transition: all ease-in-out 0.5s;
+}
+.linkHolderTwo >p:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight: bold;
+}
+.footerIconLinks{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footerIconLinks >div{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    /* background: white; */
+}

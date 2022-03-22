@@ -1,0 +1,168 @@
+.headNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    /* background: coral; */
+    box-shadow: 2px 0.8px 5px darkgray;
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+.navImage{
+    height: 50px;
+    width: 80px;
+}
+a{
+    color: coral;
+    text-decoration: none;
+}
+.navItem{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+}
+.navItem >p {
+    transition: all ease-in-out 0.5s;
+    text-decoration: none;
+}
+.navItem >p:hover{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1.1);
+    font-weight: bold;
+    width: 100px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 2px 1px 10px brown;
+}
+.playtime{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+marquee{
+    font-family: cursive;
+    color: brown;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card1{
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    background-image: url("gamelike.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    box-shadow: 1px 1px 2px brown;
+    transition: all ease-in-out 1s;
+    margin-top: 10px;
+}
+.card1:hover{
+    background: linear-gradient(orange, brown);
+    transform: scale(1.05);
+    color: white;
+}
+.card2{
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    background-image: url("gamelike2.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    box-shadow: 1px 1px 2px brown;
+    transition: all ease-in-out 1s;
+    margin-top: 10px;
+}
+.card2:hover{
+    background: linear-gradient(orange, brown);
+    transform: scale(1.05);
+    color: white;
+}
+.card3{
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    background-image: url("gamelike3.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    box-shadow: 1px 1px 2px brown;
+    transition: all ease-in-out 1s;
+    margin-top: 10px;
+}
+.card3:hover{
+    background: linear-gradient(orange, brown);
+    transform: scale(1.05);
+    color: white;
+}
+.contentButton{
+    width: 120px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: brown;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.contentButton:hover{
+    box-shadow: 1px 1px 2px white;
+    cursor: pointer;
+}
+.footerElement{
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: brown;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.footerLinkHolder{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    font-family: cursive;
+}
+.linkHolderOne >p{
+    transition: all ease-in-out 0.5s;
+}
+.linkHolderOne >p:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight: bold;
+}
+.linkHolderTwo >p{
+    transition: all ease-in-out 0.5s;
+}
+.linkHolderTwo >p:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight: bold;
+}
+.footerIconLinks{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footerIconLinks >div{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    /* background: white; */
+}
